@@ -1,8 +1,13 @@
 import os
 import subprocess
 
-# this function filters the outcome of DIR command and gives
-# us folder names for further BFS
+"""
+this python file will navigate through the host computer .
+The algorithm used is BFS.
+this function filters the outcome of DIR command and gives
+us folder names for further BFS
+"""
+
 os.chdir('D:/')
 
 def getchild(new,dirv):
